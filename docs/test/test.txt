@@ -1,0 +1,80 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <base href="/">
+    <meta charset="utf-8">
+    <meta name="description" content="Activate your leadership by going on an AIESEC experience. Find opportunities to live a shared responsibility for the world and shape it for a better future."/>
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@aiesec">
+    <meta name="twitter:title" content="Develop your leadership | AIESEC">
+    <meta name="twitter:description" content="Activate your leadership by going on an AIESEC experience. Find opportunities to live a shared responsibility for the world and shape it for a better future.">
+    <meta name="twitter:creator" content="@aiesec">
+    <!-- Twitter summary card with large image must be at least 280x150px -->
+    <meta name="twitter:image:src" content="https://s3-eu-west-1.amazonaws.com/cdn.expa.aiesec.org/assets/images/aiesec_org/mobile_main.jpg">
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Develop your leadership | AIESEC"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="https://aiesec.org/"/>
+    <meta property="og:image" content="https://s3-eu-west-1.amazonaws.com/cdn.expa.aiesec.org/assets/images/aiesec_org/mobile_main.jpg"/>
+    <meta property="og:description" content="Activate your leadership by going on an AIESEC experience. Find opportunities to live a shared responsibility for the world and shape it for a better future."/>
+    <meta property="og:site_name" content="AIESEC"/>
+    <meta property="fb:app_id" content="1157537144372133"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <title>Develop your leadership | AIESEC</title>
+    <!-- Font styles -->
+    <link rel="preload" href="./assets/styles/fonts/cm-aiesec.woff2?k0yvs9">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/120939/YOP/style-cf.css?3zz4jx">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <script async="" src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js" integrity="sha384-Cs3dgUx6+jDxxuqHvVH8Onpyj2LF1gKZurLDlhqzuJmUqVYMJ0THTWpxK5Z086Zm" crossorigin="anonymous"></script>
+    <!-- Address bar color -->
+    <meta name="theme-color" content="#037ef3"/>
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#1976d2">
+<link rel="stylesheet" href="styles.cc4c5aec6616d0785779.css"></head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe title="Google tag manager" src="https://www.googletagmanager.com/ns.html?id=GTM-M7CQPCB" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<script>
+window.__aiesec = {}
+</script>
+<app-root></app-root>
+<link rel="icon" type="image/x-png" href="./assets/images/favicon.png">
+
+<!-- Google Charts -->
+<script>
+    // !important: You want to give this variable(var googleLoaded = false;). This is used to run multiple chart in your jade.
+    let googleLoaded = false;
+    // !important: Define which chart packages to preload.Because this package uses ChartWrappers you can use any chart type that Google supports, but if it // isn't loaded it will load it on demand.
+    let googleChartsPackagesToLoad = ['geochart'];
+</script>
+<!-- AIESEC Germany Script -->
+<script async="" src="https://bookmarks.aiesec.de/v2/bookmarklets/aiesecBookmarklet.min.js"></script>
+<script>
+  setTimeout(() => {
+    // Differ loading of firebase sw for perf benefits
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./firebase-messaging-sw.js').then(function (registration) {
+      }).catch(function (err) {
+        console.log('Firbase Service Worker registration failed: ', err);
+      });
+    }
+  }, 5000);
+</script>
+<audio id="notificationSound">
+    <source src="assets/audio/notification.mp3" type="audio/mpeg">
+    <source src="assets/audio/notification.ogg" type="audio/ogg">
+    <embed hidden="true" autostart="true" loop="false" src="assets/audio/notification.mp3">
+</audio>
+<!-- Script to be loaded later -->
+<script id="crispChatScript"></script>
+<script id="intentScript"></script>
+<script src="runtime-es2015.ff880eb2a3b4d57e7a85.js" type="module"></script><script src="runtime-es5.ff880eb2a3b4d57e7a85.js" nomodule defer></script><script src="polyfills-es5.baac249815003a8965a3.js" nomodule defer></script><script src="main-es2015.ffa302fbc1ede764378d.js" type="module"></script><script src="main-es5.ffa302fbc1ede764378d.js" nomodule defer></script></body>
+
+</html>
